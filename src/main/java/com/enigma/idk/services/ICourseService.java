@@ -8,4 +8,6 @@ public interface ICourseService {
     Course create(Course course);
     List<Course> list();
     Course getOne(String id);
+    void update(int id,Course course);
+    void delete(int id);
 }
