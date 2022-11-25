@@ -7,8 +7,10 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
+
         CourseService courseService = new CourseService();
         Course springCourse = new Course();
+
         springCourse.setCourseId("1");
         springCourse.setDescription("Spring Ioc");
         springCourse.setTitle("Spring Ioc fundamental");
